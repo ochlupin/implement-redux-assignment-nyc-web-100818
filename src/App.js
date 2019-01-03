@@ -16,6 +16,7 @@ class App extends Component {
     selectedNumbersIndexes[selectedNumberIndex] = number;
     this.setState({ selectedNumbersIndexes });
   };
+
   render() {
     const {
       state: { numbers, selectedNumbersIndexes, numberOfNumbers },
